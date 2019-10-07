@@ -1,7 +1,15 @@
 # :mag_right: filequery.py
 Search for content in your local files and get results in a friendly format. 
 
-### Coming soon
+### Motivation
+
+### Uses
+
+- Get matches as a pandas dataframe - can conduct further analysis on file content directly in jupyter notebook
+- Find and report content matches in a format of your choice (csv, excel, json, sql)
+- Hackable/Flexible
+
+### Roadmap
 
 - Pass custom query function return i.e. list of tuples, with flexible column names.
 - Ability to find and replace regex matching strings with custom functions.
