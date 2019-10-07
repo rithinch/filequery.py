@@ -9,4 +9,5 @@ Search for content in your local files and get results in a friendly format.
 - Make this pip installable package - With Github open source project style
 - Add an suitable project name
 - Pandas DF lets you save to save to csv, excel, json etc. with all df functionality.
+- CLI - call directly from command line 
 
