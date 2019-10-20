@@ -46,7 +46,7 @@ def findall(query, extensions=[], folders=[], recursive=True):
 
         for ext in extensions:
 
-            #Fix to support both mac and windows - forward/backward slashes
+            #Fix to support both mac and windows - forward/backward slashes and for linux
             files = glob.glob(f"{folder}\**\*{ext}", recursive=recursive)
 
             for file in files:
