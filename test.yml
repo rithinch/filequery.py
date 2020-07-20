@@ -1,0 +1,12 @@
+- MyPackageName_1:
+  - version: 1.0.10
+  - exclude:
+    - MyProjectName_1
+
+- MyPackageName_2: 1.0.21
+- MyPackageName_3: 1.0.10
+
+
+
+
+  

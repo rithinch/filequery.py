@@ -64,6 +64,8 @@ def find(query, file, to_df=True):
     except UnicodeDecodeError as e:
         f = open(file, "r", encoding='utf-8')
         content = f.read()
+    except PermissionError as e:
+        return results
 
     if (callable(query)):
 
