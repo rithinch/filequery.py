@@ -10,6 +10,7 @@ Search for content in your local files and get results in a friendly format.
 - Hackable/Flexible
 
 ### Roadmap
+- Add support mac/linux file systems in findal all method when getting globs
 - Results merge
 - Excluding certain filenames, or foldernames. - Exclusions list
 - Pass custom query function return i.e. list of tuples, with flexible column names.
