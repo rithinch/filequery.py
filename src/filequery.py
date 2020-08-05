@@ -47,7 +47,9 @@ def findall(query, extensions=[], folders=[], recursive=True):
         for ext in extensions:
 
             #Fix to support both mac and windows - forward/backward slashes and unix
-            files = glob.glob(f"{folder}\**\*{ext}", recursive=recursive)
+            path = os.path.join(folder,"**",f"*{ext}")
+            print(path)
+            files = glob.glob(path, recursive=recursive)
 
             for file in files:
 
@@ -63,7 +65,7 @@ def find(query, file, to_df=True):
         f = open(file, "r")
         content = f.read()
     except UnicodeDecodeError as e:
-        f = open(file, "r", encoding='utf-8')
+        f = open(file, "r", encoding='cp1252')
         content = f.read()
     except PermissionError as e:
         return results
