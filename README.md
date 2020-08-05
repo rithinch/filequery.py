@@ -1,6 +1,8 @@
 # :mag_right: filequery.py
 Search for content in your local files and get results in a friendly format. 
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rithinch_filequery.py&metric=alert_status)](https://sonarcloud.io/dashboard?id=rithinch_filequery.py)
+
 ### Motivation
 
 ### Uses
