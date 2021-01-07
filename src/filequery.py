@@ -61,7 +61,7 @@ def find(query, file, to_df=True):
     results = []
 
     try:
-        f = open(file, "r")
+        f = open(file, "r", encoding='utf-8')
         content = f.read()
     except UnicodeDecodeError as e:
         f = open(file, "r", encoding='cp1252')
